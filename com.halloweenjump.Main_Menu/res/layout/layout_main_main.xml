@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dip"
+    android:layout_marginTop="20dip"
+    android:background="@drawable/halloween_background"
+    android:orientation="vertical"
+    tools:context=".Main_menu" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/menu_about"
+            android:textColor="@color/white"
+            android:textSize="30dip"
+            android:textStyle="italic" >
+        </Button>
+
+        <Button
+            android:id="@+id/start_game"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/menu_start_game"
+            android:textColor="@color/white"
+            android:textSize="30dip"
+            android:textStyle="italic" >
+        </Button>
+
+        <Button
+            android:id="@+id/contact_us"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/menu_contact_us"
+            android:textColor="@color/white"
+            android:textSize="30dip"
+            android:textStyle="italic" >
+        </Button>
+
+        <Button
+            android:id="@+id/score_list"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/menu_score_list"
+            android:textColor="@color/white"
+            android:textSize="30dip"
+            android:textStyle="italic" >
+        </Button>
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="fill_parent"
+            android:layout_height="80dip"
+            android:layout_marginBottom="15dip"
+            android:text="@string/menu_quit"
+            android:textColor="@color/white"
+            android:textSize="30dip"
+            android:textStyle="italic" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

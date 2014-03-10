@@ -1,0 +1,50 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <EditText
+            android:id="@+id/tb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="101dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tb_name"
+            android:layout_below="@+id/tb_name"
+            android:layout_marginTop="120dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_cancel"
+            android:layout_alignBottom="@+id/btn_cancel" />
+
+        <TextView
+            android:id="@+id/tvPleaseEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tb_name"
+            android:layout_marginTop="46dp"
+            android:paddingLeft="20dp"
+            android:text="Please enter your name" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_alignLeft="@+id/tb_name"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="16dp"
+            android:text="" />
+
+    </RelativeLayout>

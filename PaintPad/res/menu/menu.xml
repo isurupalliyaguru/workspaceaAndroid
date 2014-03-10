@@ -1,0 +1,22 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/colorRedBtn"
+        android:title="Red" />
+        <item android:id="@+id/colorBlueBtn"
+        android:title="Blue" />
+        <item android:id="@+id/colorGreenBtn"
+        android:title="Green" />
+        <item android:id="@+id/undoBtn"
+        android:title="Undo" />
+        <item android:id="@+id/redoBtn"
+        android:title="Redo" />
+        <item android:id="@+id/saveBtn"
+        android:title="Save" />
+        <item android:id="@+id/pathBtn"
+        android:title="Path" />
+        <item android:id="@+id/circleBtn"
+        android:title="Circle" />
+        <item android:id="@+id/squareBtn"
+        android:title="Square" />
+       
+    </menu>

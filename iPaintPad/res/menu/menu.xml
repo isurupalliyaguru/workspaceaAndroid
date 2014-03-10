@@ -1,0 +1,30 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">   	
+	<item android:id="@+id/submenu" android:title="Colours">
+		<menu>
+			<item android:id="@+id/colorRedBtn" android:title="Red" />
+			<item android:id="@+id/colorBlueBtn" android:title="Blue" />
+			<item android:id="@+id/colorGreenBtn" android:title="Green" />
+			<item android:id="@+id/colorYelloBtn" android:title="Yellow" />
+			<item android:id="@+id/colorVioletBtn" android:title="Violet" />
+		</menu>
+	</item>
+	 
+	
+	<item android:id="@+id/submenu2" android:title="Commands">
+		<menu>
+			<item android:id="@+id/undoBtn" android:title="Undo" />
+			<item android:id="@+id/redoBtn" android:title="Redo" />
+			<item android:id="@+id/saveBtn" android:title="Save" />
+		</menu>
+	</item>
+	<item android:id="@+id/submenu3" android:title="Shapes">
+		<menu>  
+	     <item android:id="@+id/pathBtn" android:title="Path" />
+	     <item android:id="@+id/circleBtn" android:title="Circle" />
+	     <item android:id="@+id/squareBtn" android:title="Square" />
+	     <item android:id="@+id/triangleBtn" android:title="Triangle" />
+	     <item android:id="@+id/PentagonBtn" android:title="Pentagon" />
+	 	</menu>
+	</item>
+</menu>
